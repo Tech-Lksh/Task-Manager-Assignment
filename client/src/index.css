@@ -1,0 +1,26 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full p-2 border rounded mb-2;
+}
+
+.btn {
+  @apply w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700;
+}
+
+/* Ensure dark mode works properly */
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Optional: Add smooth transitions */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
