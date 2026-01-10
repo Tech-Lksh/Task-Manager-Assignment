@@ -157,7 +157,7 @@ export default function Navbar({ user, onLogout }) {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="sm:hidden flex items-center space-x-4">
+          <div className="sm:hidden flex items-center space-x-4 z-50">
             {/* Dark/Light Mode Toggle */}
             <button
               onClick={toggleDarkMode}
